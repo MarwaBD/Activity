@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginAndRegisteSQLite</string>
+    <string name="password">password</string>
+    <string name="email_adresse">email adresse</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Login</string>
+</resources>

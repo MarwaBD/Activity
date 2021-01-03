@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_adresse"
+        android:layout_marginTop="50sp"/>
+
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_below="@+id/Email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginTop="15sp"/>
+
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_below="@id/Password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:layout_marginTop="15sp"
+        />
+
+
+
+
+</RelativeLayout>
